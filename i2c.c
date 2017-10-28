@@ -1,3 +1,22 @@
+/*
+ *
+ *    Author: Michael Li (Self - independent developer)
+ *    Date: 10/27/2017
+ *    Company: Self
+ *    Project: Renesas S5D9 Tutorial.
+ *
+ *    Description:
+ *
+ *  Develop the C code from scratch for the S5D9 board
+ *
+ *  Read the current temperature (F) from onboard AMS EN210 sensor (I2C interface).
+ *  Display the current temperature (F) on OLED display (I2C interface).
+ *  Display the temperature graphically over time on OLED display.
+ *
+ *
+ */
+
+
 #include "hal_data.h"
 #include "i2c.h"
 

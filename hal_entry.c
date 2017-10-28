@@ -1,3 +1,23 @@
+/*
+ *
+ *    Author: Michael Li (Self - independent developer)
+ *    Date: 10/27/2017
+ *    Company: Self
+ *    Project: Renesas S5D9 Tutorial.
+ *
+ *    Description:
+ *
+ *  Develop the C code from scratch for the S5D9 board
+ *
+ *  Read the current temperature (F) from onboard AMS EN210 sensor (I2C interface).
+ *  Display the current temperature (F) on OLED display (I2C interface).
+ *  Display the temperature graphically over time on OLED display.
+ *
+ *
+ */
+
+
+
 /* HAL-only entry function */
 #include "hal_data.h"
 #include "hal_entry.h"
@@ -56,8 +76,12 @@ void hal_entry(void)
      err = g_ext_i2c_bus_slave_addr_set(SSD1306_I2C_ADDRESS);
      APP_ERROR_TRAP(err)
 
-     // by default, we'll generate the high voltage from the 3.3v line internally! (neat!)
+     // Show Adafruit logo to credit their work
      oled_begin(SSD1306_SWITCHCAPVCC);  // initialize with the I2C addr 0x3D (for the 128x64)
+     oled_display();
+
+     delay(1000);
+
      clearBuffer(); // clears the screen and buffer
      oled_display(); // draw the new image.
 

@@ -1,4 +1,6 @@
 /*********************************************************************
+
+
 This is a library for our Monochrome OLEDs based on SSD1306 drivers
 
   Pick one up today in the adafruit shop!
@@ -15,6 +17,25 @@ Written by Limor Fried/Ladyada  for Adafruit Industries.
 BSD license, check license.txt for more information
 All text above, and the splash screen below must be included in any redistribution
 *********************************************************************/
+
+/*
+ *
+ *    Author: Michael Li (Self - independent developer)
+ *    Date: 10/27/2017
+ *    Company: Self
+ *    Project: Renesas S5D9 Tutorial.
+ *
+ *    Description: This file is based on Adafruit work and modified extensively for Renesas S5D9.
+ *
+ *  Develop the C code from scratch for the S5D9 board
+ *
+ *  Read the current temperature (F) from onboard AMS EN210 sensor (I2C interface).
+ *  Display the current temperature (F) on OLED display (I2C interface).
+ *  Display the temperature graphically over time on OLED display.
+ *
+ *
+ */
+
 #include "hal_data.h"
 #include <string.h>   // for memset
 #include "hal_entry.h"

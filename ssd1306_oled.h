@@ -15,6 +15,24 @@ Written by Limor Fried/Ladyada  for Adafruit Industries.
 BSD license, check license.txt for more information
 All text above, and the splash screen must be included in any redistribution
 *********************************************************************/
+
+/*
+ *
+ *    Author: Michael Li (Self - independent developer)
+ *    Date: 10/27/2017
+ *    Company: Self
+ *    Project: Renesas S5D9 Tutorial.
+ *
+ *    Description: This file is based on Adafruit work and modified extensively for Renesas S5D9.
+ *
+ *  Develop the C code from scratch for the S5D9 board
+ *
+ *  Read the current temperature (F) from onboard AMS EN210 sensor (I2C interface).
+ *  Display the current temperature (F) on OLED display (I2C interface).
+ *  Display the temperature graphically over time on OLED display.
+ *
+ *
+ */
 #include "hal_data.h"
 
 #define SSD1306_I2C_ADDRESS   0x3C	// 011110+SA0+RW - 0x3C or 0x3D
