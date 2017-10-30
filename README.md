@@ -11,3 +11,8 @@ File Description:
 2.  i2c.c/h (i2c SSP API calls)
 3.  en210.c/h (subroutines for AMS EN210 operations)
 4.  ssd1306_oled.c/h (subroutines for OLED module operations)
+
+Datasheet:
+ENS210_DS000470_1-00.pdf (Temperature sensor datasheet)
+OLED Sepecification.pdf (OLED display module spec sheet)
+SSD1306.pdf (OLED display driver chip datasheet)
