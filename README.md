@@ -16,5 +16,6 @@ Datasheet:
 ENS210_DS000470_1-00.pdf (Temperature sensor datasheet)
 OLED Sepecification.pdf (OLED display module spec sheet)
 SSD1306.pdf (OLED display driver chip datasheet)
+an amazing projects
 
 https://www.miketechuniverse.com/single-post/2017/10/27/Tutorial-for-Renesas-S5D9-board-Show-The-Temperature-Reading-on-an-OLED-Display
